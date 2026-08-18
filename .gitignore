@@ -1,0 +1,40 @@
+# Go dependencies and generated output
+vendor/
+*.exe
+*.dll
+*.so
+*.dylib
+backend/controlplane
+backend/controlplane-bootstrap
+
+# Logs and local configuration
+*.log
+logs/
+.env
+.env.*.local
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Test and temporary output
+coverage/
+*.coverprofile
+*.tmp
+*.temp
+.cache/
+.worktrees/
+
+# Local databases and backups
+*.db
+*.sqlite
+*.sql.backup
+
+# Go workspace files
+go.work
+go.work.sum
